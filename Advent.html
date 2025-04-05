@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-image: url('adventBG.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: fantasy;
+            font-size: 70px;
+            color: white; 
+            text-shadow: 2px 2px 5px black; 
+        }
+
+        .main-image {
+            width: 900px;
+            max-width: 100%;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px; 
+            margin-top: 20px;
+            flex-wrap: wrap; 
+        }
+
+        .image-container img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px; 
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+        }
+        p:hover{
+            color: white;
+        }
+        .image-container img:hover {
+            transform: scale(1.1); 
+        }
+
+        p{
+            color: blueviolet;
+        }
+
+        h2{
+            color: white;
+            margin: 10px 0;
+            text-shadow: 2px 1px 3px black;
+        }
+        video{
+            padding: 20px;
+            width: max-content;
+        }
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        html, body {
+        overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>HoloLive ADVENT</h1>
+        <img src="adventLogo.jpeg" alt="HOLOLIVE LOGO"  width="1000">
+
+        <div class="image-container">
+            <a href="shiori.html">
+                <img src="shiori.jpeg" alt="Shiori Novella">
+                <p>Shiori Novella</p>
+            </a>
+            <a href="nerrisa.html">
+                <img src="nerrisa.jpeg" alt="Nerrisa Ravencroft">
+                <p>Nerrisa Ravencroft</p>
+            </a>
+            <a href="bijou.html">
+                <img src="bijou.jpeg" alt="Koseki Bijou">
+                <p>Koseki Bijou</p>
+            </a>
+            <a href="fuwawa.html">
+                <img src="fuwawa.jpeg" alt="Fuwawa Abyssgard">
+                <p>Fuwawa Abyssguard</p>
+            </a>
+            <a href="mococo.html">
+                <img src="mococo.jpeg" alt="Mococo Abyssgard">
+                <p>Mococo Abyssguard</p>
+            </a>
+        </div>
+        <br>
+        <h2>Advent is a group of criminals that escaped from The Cell.<br>
+            It consists of Shiori Novella, Nerissa Ravencroft, Koseki Bijou, Fuwawa Abyssgard, and Mococo Abyssgard, who were all imprisoned for various reasons. <br>
+            However, they escaped from The Cell to achieve one shared goal: to rebel against the world, their destinies, and their monotonous lives.</h2>
+
+            <div class="content">
+                <video width="800" controls>
+                    <source src="TeamTomodachi.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h2> One of my favorite covers by ADVENT!</h2>
+    </main>
+
+
+    <footer>
+        <hr>
+        &copy; 2025 Patrich Olaran. All rights reserved.
+        <br> Photos From: <a href="https://hololive.hololivepro.com/en/special/9029/" target="_blank">Hololive Official</a>
+    </footer>
+</body>
+</html>
