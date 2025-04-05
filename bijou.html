@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koseki Bijou</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('bijouBG.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            flex-grow: 1;
+            padding-top: 50px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .back-button img {
+            width: 200px;
+            cursor: pointer;
+        }
+
+        .back-button img:hover {
+            transform: scale(1.1);
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content img {
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        h1, h2, h3 {
+            color: white;
+            margin: 10px 0;
+            text-shadow: 2px 1px 3px black;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        html, body {
+            overflow: auto;
+        }
+        
+    </style>
+</head>
+<body>
+<main>
+    <a href="Advent.html" class="back-button">
+        <img src="adventLogo.jpeg" alt="Back" title="BACK">
+    </a>
+
+    <div class="content">
+        <img src="bijou.jpeg" alt="Koseki Bijou">
+        <h1>[The Jewel of Emotions]</h1>
+        <h1>Koseki Bijou</h1>
+        <h2>Formed from the crystallization of all forms of human emotion, Koseki Bijou is “The Jewel of Emotions.” <br>
+            Over years and years, emotions of beauty and filth alike have woven into her under <br> 
+            immense pressure, resulting in an unmatched brilliance.<br>
+            Her ancient, mystic brilliance caused strife between the masses of the greedy, <br>
+            who fought over ownership of her. <br>
+            This led to her being imprisoned in secrecy, far from the reach of humans. <br>
+            It seems as though when she encounters people, and particularly their good emotions, <br>
+            her radiance shines even brighter.</h2>
+    </div>
+
+    <div class="content">
+        <h1>Watch them here:</h1>
+        <a href="https://www.youtube.com/channel/UC9p_lqQ0FEDz327Vgf5JwqA" target="_blank">
+            <img src ="youtube.jpeg" alt="Youtube">
+        </a>
+    </div>
+</main>
+
+    <footer>
+        <hr>
+        &copy; 2025 Patrich Olaran. All rights reserved.
+        <br> Photos From: <a href="https://hololive.hololivepro.com/en/special/9029/" target="_blank">Hololive Official</a>
+    </footer>
+
+</body>
+</html>
